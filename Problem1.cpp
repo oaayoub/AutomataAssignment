@@ -37,7 +37,7 @@ int main()
         {
             int transition = child.second;
             if(transition == s[i]) {
-                cout<<"Going to state ("<<child.first<<") by transition"<<transition-'0'<<endl;
+                cout<<"Going to state ("<<State_name[child.first]<<") by transition"<<transition-'0'<<endl;
                 CurrState = child.first;
                 break;
             }
