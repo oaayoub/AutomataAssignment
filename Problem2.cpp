@@ -25,7 +25,7 @@ int main()
     graph[q2].push_back({q3,'0'});
 
     graph[q3].push_back({q3,'1'});
-    graph[q3].push_back({q3,'0'});
+    graph[q3].push_back({q1,'0'});
     cout<<"Enter The String :\n";
     string s;
     cin>>s;
